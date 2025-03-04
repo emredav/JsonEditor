@@ -3,6 +3,7 @@
 This project is a simple JSON editor that allows users to remove specific fields from a JSON file. The project is built using Java and Maven.
 
 ## Project Structure
+```
 JsonEditor/
 ├── pom.xml
 ├── README.md
@@ -19,7 +20,7 @@ JsonEditor/
 │   │   │   └── exampleWordList.json
 │   ├── test/
 │   │   └── java/
-
+```
 ## How to Run
 1. Build the project using Maven:
     ```sh
