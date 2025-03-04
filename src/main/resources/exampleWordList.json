@@ -1,0 +1,34 @@
+{
+  "words": [
+    {
+      "id": 1,
+      "ENG": "abandon",
+      "TR": "terk etmek"
+    },
+    {
+      "id": 2,
+      "ENG": "abandoned",
+      "TR": "terkedilmiş"
+    },
+    {
+      "id": 5,
+      "ENG": "about",
+      "TR": "hakkında"
+    },
+    {
+      "id": 6,
+      "ENG": "abroad",
+      "TR": "yurt dışı"
+    },
+    {
+      "id": 7,
+      "ENG": "absence",
+      "TR": "yokluk"
+    },
+    {
+      "id": 8,
+      "ENG": "absent",
+      "TR": "yok"
+    }
+  ]
+}
