@@ -11,11 +11,17 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class FileUtil {
+    private static String lastFilePath;
+
     public static FileReader readFile() throws IOException {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lütfen dosya yolunu girin:");
-        String filePath = scanner.nextLine();
-        return new FileReader(filePath);
+        lastFilePath = scanner.nextLine();
+        return new FileReader(lastFilePath);
+    }
+
+    public static String getLastFilePath() {
+        return lastFilePath;
     }
 
     /**
